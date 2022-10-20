@@ -6,7 +6,7 @@
   max-height: min-content;
   display: grid;
   grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
-  grid-template-rows: repeat(1, 1fr) ;
+  grid-template-rows: repeat(1, 1fr);
   gap: 48px 40px;
 }
 
