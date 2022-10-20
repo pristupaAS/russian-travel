@@ -1,0 +1,26 @@
+.photo-table {
+  max-width: 1184px;
+  min-height: min-content;
+  margin: 0 auto;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-table {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-table {
+    max-width: 720px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-table {
+    max-width: 288px;
+    margin-bottom: 64px;
+  }
+}

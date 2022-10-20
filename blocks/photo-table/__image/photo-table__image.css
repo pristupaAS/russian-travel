@@ -1,0 +1,28 @@
+.photo-table__image {
+  max-width: 284px;
+  width: 100%;
+  max-height: 213px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-table__image {
+    max-width: 300px;
+    max-height: 225px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-table__image {
+    max-width: 352px;
+    max-height: 264px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-table__image {
+    max-width: 288px;
+    max-height: 216px;
+  }
+}
+

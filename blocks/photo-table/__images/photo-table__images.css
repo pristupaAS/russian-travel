@@ -1,0 +1,32 @@
+.photo-table__images {
+  width: 100%;
+  min-height: min-content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-table__images {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .photo-table__images {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .photo-table__images {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+}
