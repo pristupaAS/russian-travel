@@ -3,16 +3,25 @@
   min-height: min-content;
   margin: 0 auto;
   margin-bottom: 92px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  gap: 16px;
 }
 
 @media screen and (max-width: 1024px) {
   .photo-table {
     max-width: 928px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-table {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
     max-width: 720px;
     margin-bottom: 88px;
   }
@@ -20,6 +29,8 @@
 
 @media screen and (max-width: 320px) {
   .photo-table {
+    grid-template-columns: 1fr;
+    gap: 12px;
     max-width: 288px;
     margin-bottom: 64px;
   }
